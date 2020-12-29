@@ -1,0 +1,145 @@
+З.1 
+package Arifkhon.h;
+
+public class Main {
+
+    public static void main(String[] args) {
+  double d = 2;// Дан диаметр окружности d. Найти ее длину L = ?·d. В качестве значения ? использовать 3.14
+           double l = 3.14 * d;
+           System.out.println("длину =" +l);
+        
+            }
+}
+---------------------------------------------------------------------
+З.2
+package Arifkhon.h;
+
+public class Main {
+
+    public static void main(String[] args) {
+  int a = 2;//Дана длина ребра куба a. Найти объем куба V = a^3 и площадь его поверхности S = 6·a^2
+          double v = Math.pow(a, 3);
+          double s = 6 * Math.pow(a, 2);
+           System.out.println("объем =" +v);
+        System.out.println("площадь =" +s);
+            }
+}
+----------------------------------------------------------------------------
+З.3
+package Arifkhon.h;
+
+public class Main {
+
+    public static void main(String[] args) {
+int a = 2 ; // Даны длины ребер a, b, c прямоугольного параллелепипеда. Найти его объем V = a·b·c и площадь поверхности S = 2·(a·b + b·c + a·c)
+        int b = 3 ;
+                int c = 4 ;
+        int v = a * b *c;
+ int s = 2*(a * b +b * c + a + c);
+  System.out.println("объем = " + v);
+        System.out.println("площадь = " + s);
+    }
+}
+----------------------------------------------------------------------------
+З.4
+package Arifkhon.h;
+
+public class Main {
+
+    public static void main(String[] args) {
+  double r = 2;//Найти длину окружности L и площадь круга S заданного радиуса R: L = 2?R^2,  S=?R^2. В качестве значения ? использовать 3.14
+
+
+        double l = 2 * 3.14 * Math.pow(r, 2);
+          double s = 3.14 * Math.pow(r, 2);
+           System.out.println("l =" +l);
+        System.out.println("s =" +s);
+            }
+}
+
+
+--------------------------------------------------------------------------------
+З.5
+package Arifkhon.h;
+
+public class Main {
+
+    public static void main(String[] args) {
+int a = 2; // Даны два числа a и b. Найти их среднее арифметическое: (a + b)/2
+          int b = 4;
+      int    s = (a + b ) / 2;
+        System.out.println("среднее арифметическое = " + s);
+    }
+}
+------------------------------------------------------------------------------------------
+З.6
+package Arifkhon.h;
+
+public class Main {
+
+    public static void main(String[] args) {
+     double a = 4;//  Даны два неотрицательных числа a и b. Найти их среднее геометрическое, то есть квадратный корень из их произведения: v a·b
+    double b = 6;
+     double s = Math.sqrt(a * b);
+        System.out.println(" среднее геометрическое = " +s );
+     }
+}
+-------------------------------------------------------------
+З.7
+package Arifkhon.h;
+
+import java.sql.SQLOutput;
+
+public class Main {
+
+    public static void main(String[] args) {
+    int A = 1;
+    int B = 4;
+    int C = 8;
+    int A1 = A;
+    int B1 = B;
+    int C1 = C;
+    int a = B1;
+    int b = C1;
+    int c = A1;
+        System.out.println("A = " +a);
+        System.out.println("B = " + b);
+        System.out.println("C =" + c);
+    }
+            }
+
+
+
+--------------------------------------------------------------
+З.8 
+package Arifkhon.h;
+
+public class Main {
+
+    public static void main(String[] args) {
+     double x = 2; //Найти значение функции y=3x^6-6x^2-7 при данном значении x
+        double y = 3 * Math.pow(x, 6) - 6 * Math.pow(x, 2) - 7;
+        System.out.println("Y = " +y);
+    }
+}
+---------------------------------------------------------------------------
+З.9
+package Arifkhon.h;
+
+import java.sql.SQLOutput;
+
+public class Main {
+
+    public static void main(String[] args) {
+    double a = 2;//  Даны катеты прямоугольного треугольника a и b. Найти его гипотенузу c и периметр P: c = va2 + b2, P = a + b + c.
+   double  b = 4;
+   double c = Math.sqrt(a * 2 + b * 2 );
+   double p = a + b + c ;
+        System.out.println("гипотенузу  = " +c);
+        System.out.println("периметр = " +p) ;
+        
+    }
+            }
+
+
+
